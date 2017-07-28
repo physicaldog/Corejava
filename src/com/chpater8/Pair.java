@@ -32,6 +32,9 @@ public class Pair<T> {
     }
     
     public static void main(String[] args) {
+        Pair<String> xPair = new Pair<String>("mick", "jack");
+        
+        System.out.println(xPair.getFirst()+" "+xPair.getSecond());
         
     }
 }
